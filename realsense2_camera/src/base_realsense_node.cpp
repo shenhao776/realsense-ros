@@ -1003,6 +1003,7 @@ void BaseRealSenseNode::setupPublishers()
     }
 
     _synced_imu_publisher = std::make_shared<SyncedImuPublisher>();
+    // ROS_INFO("=-----------------------_imu_sync_method = %d",_imu_sync_method);
     if (_imu_sync_method > imu_sync_method::NONE && _enable[GYRO] && _enable[ACCEL])
     {
         ROS_INFO("Start publisher IMU");
