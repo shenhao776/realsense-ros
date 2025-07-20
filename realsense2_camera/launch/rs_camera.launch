@@ -52,8 +52,8 @@
   <arg name="enable_sync"               default="false"/>
   <arg name="align_depth"               default="false"/>
 
-  <arg name="publish_tf"                default="false"/>
-  <arg name="tf_publish_rate"           default="50"/>
+  <arg name="publish_tf"                default="true"/>
+  <arg name="tf_publish_rate"           default="20"/>
 
   <arg name="filters"                   default=""/>
   <arg name="clip_distance"             default="-2"/>
